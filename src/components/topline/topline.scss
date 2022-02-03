@@ -1,0 +1,36 @@
+.topline {
+  width: 100%;
+  padding-top: 47px;
+  background: #fafafa;
+  box-shadow: 0px 0.33px 0px rgba(60, 60, 67, 0.29);
+
+  margin: 0 auto;
+  padding-bottom: 37px;
+
+  &__container {
+    margin-left: 52px;
+  }
+}
+
+.c-headline {
+  width: 1280px;
+  margin: 0 auto;
+}
+.headline__container {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  align-items: center;
+}
+
+.icon {
+  max-width: 30px;
+  width: auto;
+  height: 25px !important;
+  margin-right: 25px;
+}

@@ -1,0 +1,64 @@
+{
+  "name": "gitogram",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint",
+    "lint:fix": "vue-cli-service lint --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "sass-loader": "^10",
+    "vue": "^3.0.0",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/cli": "^6.4.14",
+    "@storybook/vue3": "^6.4.14",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/test-utils": "^2.0.0-0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "node-sass": "^4.12.0",
+    "sass": "^1.48.0",
+    "sass-loader": "^8.0.2",
+    "typescript": "~3.9.3",
+    "vue-jest": "^5.0.0-0",
+    "vue-loader": "^16.8.3"
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": "git+https://github.com/ElenaDomingos/gitogram.git",
+  "author": "Elena Domingos <elena-lezhneva@mail.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElenaDomingos/gitogram/issues"
+  },
+  "homepage": "https://github.com/ElenaDomingos/gitogram#readme",
+  "description": ""
+}

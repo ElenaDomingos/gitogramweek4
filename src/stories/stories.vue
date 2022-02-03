@@ -1,0 +1,37 @@
+<template>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <button class="header__logo" @click="$router.push({ name: 'root' })">
+            <icon name="logo" />
+          </button>
+          <button class="close" @click="$router.push({ name: 'root' })">
+            <icon name="close" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <div class="app-slider">
+      <Slider
+        :initialSlide="Number($route.params.initialSlide)"
+        @noMoreSlides="$router.push({ name: 'root' })"/>
+    </div>
+  </div>
+</template>
+
+<script>
+
+import { icon } from '../../components/icons'
+import { StoriesSlider as Slider } from '../../components/Storiesslider'
+export default {
+  name: 'Stories',
+  components: {
+
+    icon,
+    Slider
+  }
+}
+</script>
+
+<style lang="scss" scoped src="./stories.scss"></style>
